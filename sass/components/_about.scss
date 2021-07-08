@@ -1,0 +1,33 @@
+.about .container {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  .about-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .about-list-items-li p {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
+  .about-list li {
+    width: 270px;
+  }
+  .about-a {
+    width: 270px;
+    height: 120px;
+    background: #f5f4fa;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-icon {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

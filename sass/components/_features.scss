@@ -1,0 +1,22 @@
+.features .container {
+    padding-bottom: 94px;
+  }
+  .features-list {
+    display: flex;
+    margin-top: 50px;
+  }
+  .features-list li {
+    width: 370px;
+  }
+  .features-list li:not(:last-child) {
+    margin-right: 30px;
+  }
+  .features-list .all-gadget {
+    width: 370px;
+    margin-right: 30px;
+    position: relative;
+    z-index: -1;
+  }
+  .features-list .projects:nth-child(3n) {
+    margin-right: 0;
+  }
