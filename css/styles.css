@@ -45,20 +45,20 @@ body {
 .nav {
   display: flex;
 }
-.nav-item {
+.nav_list {
   display: flex;
   font-size: 15px;
   font-weight: 500;
 }
-.nav-item .item:not(:last-child) {
+.nav_list .nav_item:not(:last-child) {
   margin-right: 50px;
 }
 .contacts-list a,
-.nav-item a {
+.nav_list a {
   color: var(--paragraph-text-color);
 }
 .contacts-list a:hover,
-.nav-item a:hover {
+.nav_list a:hover {
   color: var(--accent-text-color);
 }
 .contacts-list {
@@ -70,32 +70,31 @@ body {
   display: flex;
   margin-left: auto;
 }
-.contacts-rep {
+.contacts-list_item {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.contacts-rep a {
+.contacts-list_item a {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.contacts-rep a:focus {
+.contacts-list_item a:focus {
   color: var(--blue-color);
 }
-.contacts-rep:hover {
+.contacts-list_item:hover {
   color: var(--blue-color);
   cursor: pointer;
 }
-.contacts-rep:focus {
+.contacts-list_item:focus {
   color: var(--blue-color);
 }
-.contacts-mail,
-.contacts-phone {
+.contacts-list_icon {
   fill: currentColor;
   margin-right: 10px;
 }
-.contacts-rep:not(:last-child) {
+.contacts-list_item:not(:last-child) {
   margin-right: 50px;
 }
 /* Navigation */
@@ -128,12 +127,12 @@ body {
 .link-nav a:focus {
   color: var(--accent-text-color);
 }
-.nav-item .active {
+.nav_list .nav_link {
   color: var(--accent-text-color);
   position: relative;
   display: block;
 }
-.nav-item .active::after {
+.nav_list .nav_link::after {
   content: '';
   display: block;
   position: absolute;

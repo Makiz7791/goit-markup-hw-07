@@ -36,14 +36,14 @@ body
 		margin-right: 93px 
 .nav 
 	display: flex 
-.nav-item 
+.nav_list 
 	display: flex 
 	font-size: 15px 
 	font-weight: 500 
-	.item 
+	.nav_item 
 		&:not(:last-child) 
 			margin-right: 50px 
-	.active 
+	.nav_link 
 		color: var(--accent-text-color) 
 		position: relative 
 		display: block 
@@ -56,10 +56,10 @@ body
 			background-color: var(--accent-text-color) 
 			bottom: -33px 
 .contacts-list a,
-.nav-item a 
+.nav_list a 
 	color: var(--paragraph-text-color) 
 .contacts-list a:hover,
-.nav-item a:hover 
+.nav_list a:hover 
 	color: var(--accent-text-color) 
 .contacts-list 
 	font-weight: 500 
@@ -69,7 +69,7 @@ body
 	color: var(--accent-text-color) 
 	display: flex 
 	margin-left: auto 
-.contacts-rep 
+.contacts-list_item 
 	display: flex 
 	align-items: center 
 	justify-content: center 
@@ -86,8 +86,7 @@ body
 		color: var(--blue-color) 
 	&:not(:last-child) 
 		margin-right: 50px 
-.contacts-mail,
-.contacts-phone 
+.contacts-list_icon 
 	fill: currentColor 
 	margin-right: 10px 
 .logo 
