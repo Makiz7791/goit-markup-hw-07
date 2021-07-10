@@ -13,21 +13,19 @@
     background-position: center;
     background-size: cover;
     background-blend-mode: darken;
-  }
-  .hero {
     color: var(--text-white-color);
   }
-  .hero .container {
+  & .container {
     padding-left: 252px;
     padding-right: 252px;
     padding-top: 200px;
     padding-bottom: 200px;
   }
-  .hero .button:focus,
-  .hero .button:hover {
+  & .button:focus,
+  & .button:hover {
     background-color: #188ce8;
   }
-  .hero-title {
+  &-title {
     font-weight: 600;
     font-size: 44px;
     line-height: 1.36;

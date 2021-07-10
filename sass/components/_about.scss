@@ -2,20 +2,20 @@
     padding-top: 94px;
     padding-bottom: 94px;
   }
-  .about-list {
+  &-list {
     display: flex;
     justify-content: space-between;
   }
-  .about-list-items-li p {
+  &-list-items-li p {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
   }
-  .about-list li {
+  &-list li {
     width: 270px;
   }
-  .about-a {
+  &-a {
     width: 270px;
     height: 120px;
     background: #f5f4fa;
@@ -24,7 +24,7 @@
     align-items: center;
     justify-content: center;
   }
-  .about-icon {
+  &-icon {
     width: 70px;
     height: 70px;
     display: flex;

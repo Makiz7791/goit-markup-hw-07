@@ -1,7 +1,7 @@
 .trew {
     padding: 94px 0;
   }
-  .trew-title {
+  &-title {
     font-weight: bold;
     font-size: 36px;
     line-height: 1.166;
@@ -10,12 +10,12 @@
     color: var(--black-grey-color);
     margin-bottom: 50px;
   }
-  .trew-items {
+  &-items {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .trew-a {
+  &-a {
     width: 170px;
     height: 92px;
     border: 1px solid #afb1b8;
@@ -25,13 +25,14 @@
     align-items: center;
     color: #afb1b8;
   }
-  .trew-a:hover,
-  .trew-a:focus {
+  &-a:hover,
+  &-a:focus {
     border-color: var(--accent-text-color);
     color: var(--accent-text-color);
   }
-  .trew-icon {
+  &-icon {
     width: 106px;
     height: 60px;
     fill: currentColor;
   }
+  
